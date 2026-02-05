@@ -10,25 +10,14 @@ Skeptical, operator-first insights on AI and software engineering.
 
 ## Latest Posts
 
-### [How to Stay Ahead of the Curve When Working with AI as a Software Engineer](/posts/2026-02-05-how-to-stay-ahead-of-the-curve-when-working-with-ai-as-a-software-engineer/)
-<small>February 5, 2026</small>
+{% for post in site.posts limit:5 %}
+### [{{ post.title }}]({{ post.url }})
+<small>{{ post.date | date: "%B %e, %Y" }}</small>
 
-The landscape of software engineering has shifted dramatically over the past year. AI-assisted coding has moved from experimental to essential, and engineers who adapt their workflow will outpace those who don't.
+{{ post.excerpt }}
 
-But here's the thing: using AI effectively isn't about faster typing or more lines of code. It's about knowing when to use it, how to verify it, and what skills remain valuable.
-
-[Read more →](/posts/2026-02-05-how-to-stay-ahead-of-the-curve-when-working-with-ai-as-a-software-engineer/)
-
----
-
-### [When NOT to Use AI for Coding](/posts/2026-02-05-when-not-to-use-ai-for-coding/)
-<small>February 5, 2026</small>
-
-AI coding assistants have become indispensable. They generate boilerplate, suggest refactorings, and speed up routine tasks. But there's a dangerous assumption creeping into engineering culture: that AI should be the default for everything.
-
-This post provides practical guidance on five areas where engineers should avoid or limit AI usage: security-critical code, performance-critical paths, domain-specific business logic, novel algorithms, and when you lack domain expertise.
-
-[Read more →](/posts/2026-02-05-when-not-to-use-ai-for-coding/)
+[Read more →]({{ post.url }})
+{% endfor %}
 
 ---
 

@@ -18,8 +18,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Permalink structure (simple)
-permalink: /posts/:title/
+# Permalink structure (date-based)
+permalink: /posts/:year/:month/:day/:title/
 
 
 # Exclude
