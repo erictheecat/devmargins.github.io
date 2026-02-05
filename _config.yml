@@ -1,8 +1,8 @@
 title: DevMargins
 description: Skeptical, operator-first insights on AI and software engineering
 author: DevMargins
-url: https://devmargins.github.io
-baseurl: ""
+url: https://erictheecat.github.io
+baseurl: /devmargins.github.io
 
 # Theme settings
 theme: minima
