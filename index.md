@@ -11,12 +11,12 @@ Skeptical, operator-first insights on AI and software engineering.
 ## Latest Posts
 
 {% for post in site.posts limit:5 %}
-### [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+### [{{ post.title }}]({{ post.url | relative_url }})
 <small>{{ post.date | date: "%B %e, %Y" }}</small>
 
 {{ post.excerpt }}
 
-[Read more →]({{ site.baseurl }}{{ post.url }})
+[Read more →]({{ post.url | relative_url }})
 {% endfor %}
 
 ---
