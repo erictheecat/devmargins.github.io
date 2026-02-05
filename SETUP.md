@@ -43,7 +43,18 @@ git push -u origin main
 
 ## Enable GitHub Pages
 
-After pushing:
+After pushing, you need to enable Pages manually (one-time setup):
+
+**Option A: GitHub Actions (Recommended - Already configured)**
+
+1. Go to repo settings: https://github.com/erictheecat/devmargins-github-io/pages
+2. Build and deployment: Select **GitHub Actions**
+3. Select workflow: **Deploy Jekyll site to Pages**
+4. Click **Save**
+
+The `.github/workflows/jekyll.yml` workflow is already pushed and will build/deploy on every push to `main`.
+
+**Option B: Branch-based (Fallback)**
 
 1. Go to repo settings: https://github.com/erictheecat/devmargins-github-io/settings/pages
 2. Source: Select **Deploy from a branch**
