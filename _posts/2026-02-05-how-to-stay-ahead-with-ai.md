@@ -3,9 +3,10 @@ layout: post
 title: "How to Stay Ahead of the Curve When Working with AI as a Software Engineer"
 date: 2026-02-05
 categories: [AI, Engineering]
+permalink: /how-to-stay-ahead-with-ai/
 ---
 
-The landscape of software engineering has shifted dramatically over the past year. AI-assisted coding has moved from experimental to essential, and engineers who adapt their workflow will outpace those who don't.
+The landscape of software engineering has shifted dramatically over past year. AI-assisted coding has moved from experimental to essential, and engineers who adapt their workflow will outpace those who don't.
 
 But here's the thing: using AI effectively isn't about faster typing or more lines of code. It's about knowing when to use it, how to verify it, and what skills remain valuable.
 
