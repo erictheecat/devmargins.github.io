@@ -19,7 +19,7 @@ plugins:
   - jekyll-sitemap
 
 # Permalink structure
-permalink: /:title/
+permalink: /:year/:month/:day/:title/
 
 # Exclude
 exclude:
